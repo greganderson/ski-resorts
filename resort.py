@@ -20,14 +20,14 @@ def create_snowboarder(name: str, boot_size: float, skill: str, is_goofy: bool) 
 def create_green_circle(name: str, trees: str) -> dict:
     return {
         "name": name,
-        "difficulty": "green circle",
+        "slope_rating": "green circle",
         "trees": trees
     }
 
 def create_blue_square(name: str, trees: str, has_moguls: bool) -> dict:
     return {
         "name": name,
-        "difficulty": "blue square",
+        "slope_rating": "blue square",
         "trees": trees,
         "has_moguls": has_moguls
     }
@@ -35,7 +35,7 @@ def create_blue_square(name: str, trees: str, has_moguls: bool) -> dict:
 def create_black_diamond(name: str, trees: str, has_moguls: bool, has_cliffs: bool) -> dict:
     return {
         "name": name,
-        "difficulty": "black diamond",
+        "slope_rating": "black diamond",
         "trees": trees,
         "has_moguls": has_moguls,
         "has_cliffs": has_cliffs
@@ -44,7 +44,7 @@ def create_black_diamond(name: str, trees: str, has_moguls: bool, has_cliffs: bo
 def create_orange(name: str, num_rails: int, small_jumps: int, medium_jumps: int, large_jumps: int) -> dict:
     return {
         "name": name,
-        "difficulty": "orange",
+        "slope_rating": "orange",
         "num_rails": num_rails,
         "small_jumps": small_jumps,
         "medium_jumps": medium_jumps,
