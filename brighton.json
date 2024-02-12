@@ -1,0 +1,87 @@
+{
+    "name": "Brighton",
+    "shredders": {
+        "skiers": [
+            {
+                "name": "Izzy",
+                "boot_size": 8.0,
+                "skill": "expert",
+                "has_poles": true
+            },
+            {
+                "name": "Cooley",
+                "boot_size": 10.5,
+                "skill": "intermediate",
+                "has_poles": true
+            }
+        ],
+        "snowboarders": [
+            {
+                "name": "Colby",
+                "boot_size": 12.0,
+                "skill": "intermediate",
+                "is_goofy": false
+            },
+            {
+                "name": "Mathew",
+                "boot_size": 8.5,
+                "skill": "intermediate",
+                "is_goofy": false
+            }
+        ]
+    },
+    "runs": {
+        "green_circle": [
+            {
+                "name": "Deer Park",
+                "difficulty": "green circle",
+                "trees": "none"
+            },
+            {
+                "name": "Sunshine",
+                "difficulty": "green circle",
+                "trees": "some"
+            }
+        ],
+        "blue_square": [
+            {
+                "name": "Ziggy",
+                "difficulty": "blue square",
+                "trees": "some",
+                "has_moguls": false
+            },
+            {
+                "name": "Pine Martin",
+                "difficulty": "blue square",
+                "trees": "lots",
+                "has_moguls": true
+            }
+        ],
+        "black_diamond": [
+            {
+                "name": "Doyle's Dive",
+                "difficulty": "black diamond",
+                "trees": "lots",
+                "has_moguls": false,
+                "has_cliffs": true
+            },
+            {
+                "name": "Desperado",
+                "difficulty": "black diamond",
+                "trees": "lots",
+                "has_moguls": true,
+                "has_cliffs": true
+            }
+        ],
+        "orange": [
+            {
+                "name": "Park 1",
+                "difficulty": "orange",
+                "num_rails": 8,
+                "small_jumps": 6,
+                "medium_jumps": 4,
+                "large_jumps": 1
+            }
+        ]
+    }
+}
