@@ -36,25 +36,25 @@
                 {
                     "name": "Homerun",
                     "slope_rating": "green circle",
-                    "trees": "none"
+                    "tree_density": "none"
                 },
                 {
                     "name": "Rose Bud",
                     "slope_rating": "green circle",
-                    "trees": "some"
+                    "tree_density": "some"
                 }
             ],
             "blue_square": [
                 {
                     "name": "Hawkeye",
                     "slope_rating": "blue square",
-                    "trees": "some",
+                    "tree_density": "some",
                     "has_moguls": false
                 },
                 {
                     "name": "Red Fox",
                     "slope_rating": "blue square",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": true
                 }
             ],
@@ -62,14 +62,14 @@
                 {
                     "name": "Fool's Gold",
                     "slope_rating": "black diamond",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": false,
                     "has_cliffs": true
                 },
                 {
                     "name": "Belmont",
                     "slope_rating": "black diamond",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": true,
                     "has_cliffs": true
                 }
@@ -123,25 +123,25 @@
                 {
                     "name": "Deer Park",
                     "slope_rating": "green circle",
-                    "trees": "none"
+                    "tree_density": "none"
                 },
                 {
                     "name": "Sunshine",
                     "slope_rating": "green circle",
-                    "trees": "some"
+                    "tree_density": "some"
                 }
             ],
             "blue_square": [
                 {
                     "name": "Ziggy",
                     "slope_rating": "blue square",
-                    "trees": "some",
+                    "tree_density": "some",
                     "has_moguls": false
                 },
                 {
                     "name": "Pine Martin",
                     "slope_rating": "blue square",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": true
                 }
             ],
@@ -149,14 +149,14 @@
                 {
                     "name": "Doyle's Dive",
                     "slope_rating": "black diamond",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": false,
                     "has_cliffs": true
                 },
                 {
                     "name": "Desperado",
                     "slope_rating": "black diamond",
-                    "trees": "lots",
+                    "tree_density": "lots",
                     "has_moguls": true,
                     "has_cliffs": true
                 }
