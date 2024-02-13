@@ -23,7 +23,7 @@ def parse_snowboarders(snowboarders: list[dict]) -> list[Snowboarder]:
         result.append(Snowboarder(**snowboarder))
     return result
 
-def parse_run(runs: dict) -> dict:
+def parse_runs(runs: dict) -> dict:
     result = defaultdict(list)
     for rating, run_list in runs.items():
         for run in run_list:
@@ -47,7 +47,7 @@ def parse_resort(resort_dict: dict) -> Resort:
         "snowboarders": snowboarders
     }
 
-    runs = parse_run(resort_dict["runs"])
+    runs = parse_runs(resort_dict["runs"])
 
     return Resort(name=resort_dict["name"], shredders=shredders, runs=runs)
 
