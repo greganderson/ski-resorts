@@ -20,8 +20,8 @@ class Resort:
     def get_shredder_lists(self) -> dict[str, Shredder]:
         return self.shredders.copy()
     
-    def list_runs(self) -> list[Shredder]:
-        return self.shredders.copy()
+    def get_runs_by_type(self) -> list[Run]:
+        return self.runs.copy()
     
     def close_resort(self) -> None:
         self.shredders.clear()

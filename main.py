@@ -75,6 +75,11 @@ def main():
     for snowboarder in shredders["snowboarders"]:
         print(snowboarder)
 
+    run_map = resorts[0].get_runs_by_type()
+    for name, run_type_list in run_map.items():
+        for run in run_type_list:
+            print(run)
+
     resorts[0].close_resort()
     print(f"{resorts[0].name} is now closed")
 

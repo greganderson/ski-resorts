@@ -20,6 +20,9 @@ class Run(ABC):
         self.slope_rating = slope_rating
         self.tree_density = tree_density
     
+    def __str__(self) -> str:
+        return f"The {self.name} slope has a rating of {' '.join(self.slope_rating.value.split('_'))} with a tree density of {self.tree_density.value}"
+
 
 class GreenCircle(Run):
     def __init__(self, name: str, tree_density: TreeDensity):
