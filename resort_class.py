@@ -17,7 +17,7 @@ class Resort:
     def add_run(self, run: Run) -> None:
         self.runs[run.slope_rating.value].append(run)
     
-    def list_shredders(self) -> dict[str, Shredder]:
+    def get_shredder_lists(self) -> dict[str, Shredder]:
         return self.shredders.copy()
     
     def list_runs(self) -> list[Shredder]:

@@ -69,7 +69,7 @@ def main():
     resorts[0].add_run(Run(name="Greg's Slope", slope_rating=SlopeRating.BLACK_DIAMOND, tree_density=TreeDensity.LOTS))
     resorts[0].add_shredder(Snowboarder(name="Dove", boot_size=9.5, skill=Skill.INTERMEDIATE, is_goofy=True))
     
-    shredders = resorts[0].list_shredders()
+    shredders = resorts[0].get_shredder_lists()
     for skier in shredders["skiers"]:
         print(skier)
     for snowboarder in shredders["snowboarders"]:
